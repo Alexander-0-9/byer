@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: url("https://images.unsplash.com/photo-1514565131-fce0801e5785")
+    no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.container {
+    text-align: center;
+    background: rgba(0,0,0,0.6);
+    padding: 40px;
+    border-radius: 10px;
+    width: 350px;
+}
+
+h1 {
+    color: rgb(241, 158, 228);
+    margin-bottom: 20px;
+}
+
+.search-box {
+    margin-bottom: 20px;
+}
+
+.search-box input {
+    padding: 10px;
+    width: 70%;
+    border: none;
+    outline: none;
+}
+
+.search-box button {
+    padding: 10px;
+    border: 2px solid rgb(241, 158, 228);
+    background: transparent;
+    color: rgb(241, 158, 228);
+    cursor: pointer;
+    
+}
+
+.weather-box h1 {
+    font-size: 48px;
+    margin: 10px 0;
+}
+
+.weather-box p {
+    margin: 5px;
+}

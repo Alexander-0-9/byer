@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <title>Værvarsel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Værvarsel</h1>
+
+    <div class="search-box">
+
+
+    <form onsubmit="getWeather(); return false;">
+    <input type="text" id="cityInput" placeholder="Søk på sted...">
+    <button type="submit">Søk</button>
+</form>
+
+    <div class="weather-box">
+        <h2 id="city">--</h2>
+        <h1 id="temp">--°C</h1>
+        <p id="description">--</p>
+        <p id="minmax">-- / --</p>
+    </div>
+</div>
+
+<script src="script,js"></script>
+</body>
+</html>
